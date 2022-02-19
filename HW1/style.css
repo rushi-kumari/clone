@@ -1,0 +1,73 @@
+p{
+    margin-bottom:5rem; 
+    font-weight:600; 
+    /* padding-bottom:8vh; */
+    /* thickness of font */
+}
+.navbar{
+    height:10vh;
+    width:90vw;
+}
+
+.navn{
+    height:8vh;
+    width:85vw;
+    padding-bottom: 4vw;
+    display:flex;
+    justify-content:space-between;
+}
+.navn img{
+    height:4vh;
+}
+
+li{
+    list-style: none;
+    margin-left: 2rem;
+    padding-bottom: 8vw;
+    font-size: 1rem;
+    padding-left:1vw;
+    /* width:17vw; */
+}
+
+ul{
+    display: flex;
+    /* margin-right:1rem; */
+    justify-content: space-between;
+}
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 10vw;
+    height: 86vh;
+    padding-left: 2vw;
+   
+}
+.bdy{
+    
+    width : 90vw;
+    height:82vh;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:antiquewhite;
+    padding:1vw;
+}
+.xyz{
+    display:flex;
+}
+img[src="images/wheat.jpg"]{
+    height: 13vw;
+}
+a:link{
+    color:rgb(78, 151, 78);
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color:blueviolet;
+}
+a{
+    text-decoration:none;
+}
